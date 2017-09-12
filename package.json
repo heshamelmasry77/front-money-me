@@ -55,6 +55,7 @@
     "babel-loader": "^6.3.2"
   },
   "scripts": {
+    "start":"npm install && bower install",
     "build": "gulp",
     "serve": "gulp serve",
     "serve:dist": "gulp serve:dist",
