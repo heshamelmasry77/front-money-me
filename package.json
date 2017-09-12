@@ -56,7 +56,8 @@
     "babel-loader": "^6.3.2"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "gulp serve",
+    "heroku-prebuild": "npm install",
     "build": "gulp",
     "serve": "gulp serve",
     "serve:dist": "gulp serve:dist",
